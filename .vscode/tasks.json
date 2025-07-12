@@ -14,7 +14,7 @@
         "-p",
         "auto",
         "-b",
-        "nucleo_c031c6",
+        "nrf52833dk/nrf52833",
         "app/"
       ],
       "problemMatcher": [
@@ -45,7 +45,7 @@
     {
       "id": "board",
       "type": "promptString",
-      "default": "nucleo_c031c6",
+      "default": "nrf52833dk/nrf52833",
       "description": "See https://docs.zephyrproject.org/latest/boards/index.html"
     },
     {
