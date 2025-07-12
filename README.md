@@ -11,3 +11,7 @@ Based on the `hello_world` from Zephyr. Currently demonstrates:
 ## Dev Container
 
 Uses the `arm-zephyr-eabi` image and Nordic nRF52833-DK for this example. Once the Dev Container is loaded, open a terminal and run `west build app`.
+
+## Docker Image
+
+Refer to [ziteh/zephyr-rtos-docker](https://github.com/ziteh/zephyr-rtos-docker)
