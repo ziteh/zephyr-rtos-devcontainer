@@ -6,6 +6,11 @@
   "mounts": [
     "source=${localWorkspaceFolder}/.vscode/,target=/workspace/.vscode,type=bind,consistency=cached"
   ],
+  "containerEnv": {
+    // https://docs.zephyrproject.org/latest/develop/application/index.html#important-build-system-variables
+    // Default board
+    "BOARD": "nrf52833dk/nrf52833"
+  },
   "customizations": {
     "vscode": {
       "settings": {

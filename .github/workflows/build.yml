@@ -4,15 +4,15 @@ on:
   workflow_dispatch:
     inputs:
       ZEPHYR_SDK:
-        description: "Zephyr SDK version. Ex. 0.17.1."
+        description: "Zephyr SDK version. Ex. 0.17.2."
         required: true
         type: string
-        default: 0.17.1
+        default: 0.17.2
       BOARD:
         description: "Target board."
         required: true
         type: string
-        default: nucleo_c031c6
+        default: nrf52833dk/nrf52833
 
   workflow_call:
     inputs:

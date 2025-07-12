@@ -28,8 +28,8 @@ jobs:
 
     uses: ./.github/workflows/build.yml
     with:
-      ZEPHYR_SDK: 0.17.1
-      BOARD: nucleo_c031c6
+      ZEPHYR_SDK: 0.17.2
+      BOARD: nrf52833dk/nrf52833
 
   upload-binaries:
     needs: build-binaries
